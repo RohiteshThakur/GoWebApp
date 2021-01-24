@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Standard Meta -->
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"/>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+ 
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"></script> -->
+
+
+	<link rel="stylesheet" type="text/css" href="/css/particle.css" id="bootstrap-css"/>
+	<!-- <script src="particle.js"></script> -->
+    <title>Doctor Cloud</title>
+
+</head>
+<body>
+    <div class="container">
+        <div id="login-box">
+            <div class="logo">
+                <!--<img src="http://lorempixel.com/output/people-q-c-100-100-1.jpg" class="img img-responsive img-circle center-block"/>-->
+                <h1 class="logo-caption"><span class="tweak">L</span>ogin</h1>
+            </div><!-- /.logo -->
+            <div class="controls">
+                <input type="text" name="username" placeholder="Username" class="form-control" />
+                <input type="text" name="username" placeholder="Password" class="form-control" />
+                <button type="button" class="btn btn-default btn-block btn-custom">Login</button>
+            </div><!-- /.controls -->
+        </div><!-- /#login-box -->
+    </div><!-- /.container -->
+    <div id="particles-js"></div>
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<script>
+        particlesJS.load('particles-js', '/js/particles.json', function() {
+            console.log('callback - particles.js config loaded');
+        });
+	</script>
+	
+</body>
+</html>
